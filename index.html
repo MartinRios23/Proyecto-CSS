@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto-CSS</title>
+    <!--Icon-->
+    <link rel="icon" type="image/x-icon" href="./images/logo.png" />
+    <!--CSS-->
+    <link rel="stylesheet" href="./CSS/styles.css" />
+  </head>
+  <body>
+    <!--Inicio de la cabecera-->
+    <header class="header">
+      <div class="logotipo">
+        <img src="./images/logo.png" alt="Logotipo" />
+      </div>
+      <h1>
+        <a href="index.html"> Proyecto CSS </a>
+      </h1>
+    </header>
+    <!--Fin de la cabecera-->
+
+    <!--Inicio Navbar-->
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="">Contenido</a>
+          <ul>
+            <li><a href="">Backend</a></li>
+            <li><a href="">Frontend</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Requerimientos</a>
+          <ul>
+            <li><a href="">Junior</a></li>
+            <li><a href="">Semi Senior</a></li>
+            <li><a href="">Senior</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Lenguajes</a>
+          <ul>
+            <li>
+              <a
+                href="https://developer.mozilla.org/es/docs/Web/HTML"
+                target="_blank"
+                >HTML</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://developer.mozilla.org/es/docs/Web/CSS"
+                target="_blank"
+                >CSS</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Frameworks</a>
+          <ul>
+            <li><a href="https://lesscss.org/" target="_blank">LESS</a></li>
+            <li><a href="https://sass-lang.com/" target="_blank">SASS</a></li>
+            <li>
+              <a href="https://getbootstrap.com/" target="_blank"
+                >Bootstrap 4</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Proyectos</a>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/MartinRios23/Proyecto-CSS"
+                target="_blank"
+                >Proyecto CSS</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/MartinRios23/Code" target="_blank"
+                >Prueba Ténica</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Instructor</a>
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/martin-rios23/"
+                target="_blank"
+                >Martin Rios</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Reseñas</a>
+        </li>
+        <li>
+          <a href="">Blog</a>
+        </li>
+        <li>
+          <a href="">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <!--Fin Navbar-->
+
+    <!-- Inicio del contenido central-->
+    <div class="content">
+      <!--Inicio de Barra lateral-->
+      <aside class="aside">
+        <div class="login">
+          <h3>Entrar a la web</h3>
+          <form action="">
+            <label for="">Usuario</label>
+            <input type="text" name="user" />
+            <label for="">Contraseña</label>
+            <input type="password" name="password" />
+            <input type="submit" value="Entrar" />
+          </form>
+          <p>
+            <a href="#">Zona de alumnos</a>
+            <a href="#">Zona de profesores</a>
+            <a href="#">Campus virtual</a>
+          </p>
+        </div>
+
+        <div class="login">
+          <h3>Aula Virtual 1</h3>
+          <form action="">
+            <label for="">Usuario</label>
+            <input type="text" name="user" />
+            <label for="">Contraseña</label>
+            <input type="password" name="password" />
+            <input type="submit" value="Entrar" />
+          </form>
+        </div>
+
+        <div class="login">
+          <h3>Aula Virtual 2</h3>
+          <form action="">
+            <label for="">Usuario</label>
+            <input type="text" name="user" />
+            <label for="">Contraseña</label>
+            <input type="password" name="password" />
+            <input type="submit" value="Entrar" />
+          </form>
+        </div>
+
+        <div class="widget">
+          <h3>Enlaces de interés</h3>
+          <ul>
+            <li><a href="#">Correo Electrónico</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+        </div>
+      </aside>
+      <!--Fin de Barra lateral-->
+
+      <!--Inicio de las secciones-->
+      <div class="sections">
+        <!--Seccion Frontend-->
+        <section class="frontend">
+          <span class="stickers">
+            <img class="sticker1" src="./images/scotch.png" alt="sticker" />
+            <img class="sticker2" src="./images/scotch.png" alt="sticker" />
+          </span>
+          <h2 class="title">Noticias de Frontend</h2>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="">Titulo de la noticia</a>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+              provident officiis dolorem asperiores tempore aperiam fugiat ex
+              dolore repudiandae architecto, adipisci reprehenderit, recusandae
+              expedita vel laboriosam accusantium explicabo quod incidunt. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Tempore libero
+              ipsa possimus voluptatibus eius culpa, enim, fugiat molestiae
+              debitis mollitia asperiores nobis!
+            </p>
+            <span class="date"> [31/05/2021. Martin Rios] </span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="">Titulo de la noticia</a>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+              provident officiis dolorem asperiores tempore aperiam fugiat ex
+              dolore repudiandae architecto, adipisci reprehenderit, recusandae
+              expedita vel laboriosam accusantium explicabo quod incidunt. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Tempore libero
+              ipsa possimus voluptatibus eius culpa, enim, fugiat molestiae
+              debitis mollitia asperiores nobis!
+            </p>
+            <span class="date"> [31/05/2021. Martin Rios] </span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="">Titulo de la noticia</a>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+              provident officiis dolorem asperiores tempore aperiam fugiat ex
+              dolore repudiandae architecto, adipisci reprehenderit, recusandae
+              expedita vel laboriosam accusantium explicabo quod incidunt. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Tempore libero
+              ipsa possimus voluptatibus eius culpa, enim, fugiat molestiae
+              debitis mollitia asperiores nobis!
+            </p>
+            <span class="date"> [31/05/2021. Martin Rios] </span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="">Titulo de la noticia</a>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+              provident officiis dolorem asperiores tempore aperiam fugiat ex
+              dolore repudiandae architecto, adipisci reprehenderit, recusandae
+              expedita vel laboriosam accusantium explicabo quod incidunt. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Tempore libero
+              ipsa possimus voluptatibus eius culpa, enim, fugiat molestiae
+              debitis mollitia asperiores nobis!
+            </p>
+            <span class="date"> [31/05/2021. Martin Rios] </span>
+          </article>
+        </section>
+
+        <!--Seccion Backend-->
+        <section class="backend">
+          <span class="stickers">
+            <img class="sticker1" src="./images/scotch.png" alt="sticker" />
+            <img class="sticker2" src="./images/scotch.png" alt="sticker" />
+          </span>
+          <h2 class="title">Noticias de Backend</h2>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="">Titulo de la noticia</a>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+              provident officiis dolorem asperiores tempore aperiam fugiat ex
+              dolore repudiandae architecto, adipisci reprehenderit, recusandae
+              expedita vel laboriosam accusantium explicabo quod incidunt. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Tempore libero
+              ipsa possimus voluptatibus eius culpa, enim, fugiat molestiae
+              debitis mollitia asperiores nobis!
+            </p>
+            <span class="date"> [31/05/2021. Martin Rios] </span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="">Titulo de la noticia</a>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+              provident officiis dolorem asperiores tempore aperiam fugiat ex
+              dolore repudiandae architecto, adipisci reprehenderit, recusandae
+              expedita vel laboriosam accusantium explicabo quod incidunt. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Tempore libero
+              ipsa possimus voluptatibus eius culpa, enim, fugiat molestiae
+              debitis mollitia asperiores nobis!
+            </p>
+            <span class="date"> [31/05/2021. Martin Rios] </span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="">Titulo de la noticia</a>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+              provident officiis dolorem asperiores tempore aperiam fugiat ex
+              dolore repudiandae architecto, adipisci reprehenderit, recusandae
+              expedita vel laboriosam accusantium explicabo quod incidunt. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Tempore libero
+              ipsa possimus voluptatibus eius culpa, enim, fugiat molestiae
+              debitis mollitia asperiores nobis!
+            </p>
+            <span class="date"> [31/05/2021. Martin Rios] </span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="">Titulo de la noticia</a>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+              provident officiis dolorem asperiores tempore aperiam fugiat ex
+              dolore repudiandae architecto, adipisci reprehenderit, recusandae
+              expedita vel laboriosam accusantium explicabo quod incidunt. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Tempore libero
+              ipsa possimus voluptatibus eius culpa, enim, fugiat molestiae
+              debitis mollitia asperiores nobis!
+            </p>
+            <span class="date"> [31/05/2021. Martin Rios] </span>
+          </article>
+        </section>
+
+        <!--Seccion Instructor-->
+        <section class="teacher">
+          <span class="stickers">
+            <img class="sticker1" src="./images/scotch.png" alt="sticker" />
+            <img class="sticker2" src="./images/scotch.png" alt="sticker" />
+          </span>
+          <h2 class="title">Noticias del Instructor</h2>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="">Titulo de la noticia</a>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+              provident officiis dolorem asperiores tempore aperiam fugiat ex
+              dolore repudiandae architecto, adipisci reprehenderit, recusandae
+              expedita vel laboriosam accusantium explicabo quod incidunt. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Tempore libero
+              ipsa possimus voluptatibus eius culpa, enim, fugiat molestiae
+              debitis mollitia asperiores nobis!
+            </p>
+            <span class="date"> [31/05/2021. Martin Rios] </span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="">Titulo de la noticia</a>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+              provident officiis dolorem asperiores tempore aperiam fugiat ex
+              dolore repudiandae architecto, adipisci reprehenderit, recusandae
+              expedita vel laboriosam accusantium explicabo quod incidunt. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Tempore libero
+              ipsa possimus voluptatibus eius culpa, enim, fugiat molestiae
+              debitis mollitia asperiores nobis!
+            </p>
+            <span class="date"> [31/05/2021. Martin Rios] </span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="">Titulo de la noticia</a>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+              provident officiis dolorem asperiores tempore aperiam fugiat ex
+              dolore repudiandae architecto, adipisci reprehenderit, recusandae
+              expedita vel laboriosam accusantium explicabo quod incidunt. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Tempore libero
+              ipsa possimus voluptatibus eius culpa, enim, fugiat molestiae
+              debitis mollitia asperiores nobis!
+            </p>
+            <span class="date"> [31/05/2021. Martin Rios] </span>
+          </article>
+        </section>
+      </div>
+      <!--Fin de las secciones-->
+
+      <aside class="frase">
+        <b> Frase del día: </b><br />
+        Lorem ipsum dolor sit amet consectetur loren adipisicing elit <br />
+        <a href="#">Leer más frases</a>
+      </aside>
+
+      <div class="clearfix"></div>
+      <div class="history">
+        <a href="#"> [Ver histórico de noticias] </a>
+      </div>
+    </div>
+    <!--Fin del contenido central-->
+
+    <!--Inicio Footer-->
+    <footer class="footer">
+      <p>&copy; Desarrollado por Martin Rios</p>
+      <p>
+        Para revisar más de mis proyectos ir a
+        <a href="https://github.com/MartinRios23" target="_blank"
+          >Github.com/MartinRios23</a
+        >
+      </p>
+    </footer>
+    <!--Fin Footer-->
+  </body>
+</html>
