@@ -24,64 +24,159 @@
 
     <!--Inicio Navbar-->
     <nav class="navbar">
-        <ul>
+      <ul>
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="">Contenido</a>
+          <ul>
+            <li><a href="">Backend</a></li>
+            <li><a href="">Frontend</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Requerimientos</a>
+          <ul>
+            <li><a href="">Junior</a></li>
+            <li><a href="">Semi Senior</a></li>
+            <li><a href="">Senior</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Lenguajes</a>
+          <ul>
             <li>
-                <a href="index.html">Inicio</a>
+              <a
+                href="https://developer.mozilla.org/es/docs/Web/HTML"
+                target="_blank"
+                >HTML</a
+              >
             </li>
             <li>
-                <a href="">Contenido</a>
-                <ul>
-                  <li><a href="">Backend</a></li>
-                  <li><a href="">Frontend</a></li>
-                </ul>
+              <a
+                href="https://developer.mozilla.org/es/docs/Web/CSS"
+                target="_blank"
+                >CSS</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Frameworks</a>
+          <ul>
+            <li><a href="https://lesscss.org/" target="_blank">LESS</a></li>
+            <li><a href="https://sass-lang.com/" target="_blank">SASS</a></li>
+            <li>
+              <a href="https://getbootstrap.com/" target="_blank"
+                >Bootstrap 4</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Proyectos</a>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/MartinRios23/Proyecto-CSS"
+                target="_blank"
+                >Proyecto CSS</a
+              >
             </li>
             <li>
-                <a href="">Requerimientos</a>
-                <ul>
-                  <li><a href="">Junior</a></li>
-                  <li><a href="">Semi Senior</a></li>
-                  <li><a href="">Senior</a></li>
-                </ul>
+              <a href="https://github.com/MartinRios23/Code" target="_blank"
+                >Prueba Ténica</a
+              >
             </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Instructor</a>
+          <ul>
             <li>
-                <a href="">Lenguajes</a>
-                <ul>
-                  <li><a href="">HTML</a></li>
-                  <li><a href="">CSS</a></li>
-                </ul>
+              <a
+                href="https://www.linkedin.com/in/martin-rios23/"
+                target="_blank"
+                >Martin Rios</a
+              >
             </li>
-            <li>
-                <a href="">Frameworks</a>
-                <ul>
-                  <li><a href="">LESS</a></li>
-                  <li><a href="">SASS</a></li>
-                  <li><a href="">Bootstrap 4</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="">Proyectos</a>
-                <ul>
-                  <li><a href="https://github.com/MartinRios23/Proyecto-CSS" target="_blank">Proyecto CSS</a></li>
-                  <li><a href="https://github.com/MartinRios23/Code" target="_blank">Prueba Ténica</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="">Instructor</a>
-                <ul>
-                  <li><a href="https://www.linkedin.com/in/martin-rios23/" target="_blank">Martin Rios</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="">Reseñas</a>
-            </li>
-            <li>
-                <a href="">Blog</a>
-            </li>
-            <li>
-                <a href="">Contacto</a>
-            </li>
-        </ul>
+          </ul>
+        </li>
+        <li>
+          <a href="">Reseñas</a>
+        </li>
+        <li>
+          <a href="">Blog</a>
+        </li>
+        <li>
+          <a href="">Contacto</a>
+        </li>
+      </ul>
     </nav>
     <!--Fin Navbar-->
+
+    <!-- Inicio del contenido central-->
+    <div class="content">
+      <!--Inicio de Barra lateral-->
+      <aside class="aside">
+        <div class="login">
+          <h3>Entrar a la web</h3>
+          <form action="">
+            <label for="">Usuario</label>
+            <input type="text" name="user" />
+            <label for="">Contraseña</label>
+            <input type="password" name="password" />
+            <input type="submit" value="Entrar" />
+          </form>
+          <p>
+            <a href="#">Zona de alumnos</a>
+            <a href="#">Zona de profesores</a>
+            <a href="#">Campus virtual</a>
+          </p>
+        </div>
+
+        <div class="login">
+          <h3>Aula Virtual 1</h3>
+          <form action="">
+            <label for="">Usuario</label>
+            <input type="text" name="user" />
+            <label for="">Contraseña</label>
+            <input type="password" name="password" />
+            <input type="submit" value="Entrar" />
+          </form>
+        </div>
+
+        <div class="login">
+          <h3>Aula Virtual 2</h3>
+          <form action="">
+            <label for="">Usuario</label>
+            <input type="text" name="user" />
+            <label for="">Contraseña</label>
+            <input type="password" name="password" />
+            <input type="submit" value="Entrar" />
+          </form>
+        </div>
+
+        <div class="widget">
+          <h3>Enlaces de interés</h3>
+          <ul>
+            <li><a href="#">Correo Electrónico</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <aside class="frase">
+        <b> Frase del día: </b><br>
+        Lorem ipsum dolor sit amet consectetur loren adipisicing elit <br>
+        <a href="#">Leer más frases</a>
+      </aside>
+
+      <!--Fin de Barra lateral-->
+    </div>
+
+    <!--Fin del contenido central-->
   </body>
 </html>
